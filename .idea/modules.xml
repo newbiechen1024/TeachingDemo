@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TeachingDemo.iml" filepath="$PROJECT_DIR$/TeachingDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usecoordinator/usecoordinator.iml" filepath="$PROJECT_DIR$/usecoordinator/usecoordinator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/useporterduffxfermode/useporterduffxfermode.iml" filepath="$PROJECT_DIR$/useporterduffxfermode/useporterduffxfermode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/useshader/useshader.iml" filepath="$PROJECT_DIR$/useshader/useshader.iml" />
+    </modules>
+  </component>
+</project>
