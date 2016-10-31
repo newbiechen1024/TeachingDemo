@@ -131,4 +131,24 @@ public class PorterDuffXfermodeView extends View {
 
         canvas.drawBitmap(out,-150,-150,null);
     }
+
+    /**
+     * 说明Canvas的图层关系
+     * @param canvas
+     */
+    private void fifthExample(Canvas canvas){
+        mPaint.setColor(Color.BLUE);
+        canvas.drawRect(-300,-300,0,0,mPaint);
+        Bitmap out = Bitmap.createBitmap(400,400, Bitmap.Config.ARGB_8888);
+        Canvas bitmapCanvas = new Canvas(out);
+        mPaint.setColor(Color.RED);
+        bitmapCanvas.drawCircle(200,200,200,mPaint);
+        mPaint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.DST_OUT));
+        float squareLeft = 200 - 100 * (float)Math.sqrt(2);
+        float squareTop = squareLeft;
+        float squareRight = squareLeft + 200 * (float)Math.sqrt(2);
+        float squareBottom = squareRight;
+        bitmapCanvas.drawRect(squareLeft,squareTop,squareRight,squareBottom,mPaint);
+        canvas.drawBitmap(out,-200,-200,null);
+    }
 }

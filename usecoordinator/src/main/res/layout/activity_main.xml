@@ -13,59 +13,7 @@
         android:layout_width="150dp"
         android:layout_height="match_parent"
         android:layout_gravity="left|top">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="left"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="left"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="left"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="left"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="left"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="left"
-                android:background="@color/colorPrimaryDark"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-        </LinearLayout>
+        <!--滑动的内容，太多了，不展示-->
     </android.support.v4.widget.NestedScrollView>
 
     <android.support.v4.widget.NestedScrollView
@@ -73,59 +21,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="right|top"
         app:layout_behavior="com.newbiechen.usecoordinator.behavior.ScrollBehavior">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="right"
-                android:background="@color/colorAccent"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="right"
-                android:background="@color/colorAccent"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="right"
-                android:background="@color/colorAccent"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="right"
-                android:background="@color/colorAccent"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="right"
-                android:background="@color/colorAccent"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:gravity="center"
-                android:text="right"
-                android:background="@color/colorAccent"
-                android:textColor="@android:color/white"
-                android:textSize="18sp"/>
-        </LinearLayout>
+        <!--滑动的内容，太多了，不展示-->
     </android.support.v4.widget.NestedScrollView>
 <!--    <com.newbiechen.usecoordinator.widget.MoveTextView
         android:id="@+id/main_tv_left"
