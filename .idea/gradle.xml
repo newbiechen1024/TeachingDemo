@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/usecoordinator" />
+            <option value="$PROJECT_DIR$/usenightmode" />
             <option value="$PROJECT_DIR$/useporterduffxfermode" />
             <option value="$PROJECT_DIR$/useshader" />
           </set>

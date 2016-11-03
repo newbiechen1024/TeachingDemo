@@ -1,1 +1,1 @@
-include ':useshader', ':useshader', ':useporterduffxfermode', ':usecoordinator'
+include ':useshader', ':useshader', ':useporterduffxfermode', ':usecoordinator', ':usenightmode'

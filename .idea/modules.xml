@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/TeachingDemo.iml" filepath="$PROJECT_DIR$/TeachingDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/usecoordinator/usecoordinator.iml" filepath="$PROJECT_DIR$/usecoordinator/usecoordinator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usenightmode/usenightmode.iml" filepath="$PROJECT_DIR$/usenightmode/usenightmode.iml" />
       <module fileurl="file://$PROJECT_DIR$/useporterduffxfermode/useporterduffxfermode.iml" filepath="$PROJECT_DIR$/useporterduffxfermode/useporterduffxfermode.iml" />
       <module fileurl="file://$PROJECT_DIR$/useshader/useshader.iml" filepath="$PROJECT_DIR$/useshader/useshader.iml" />
     </modules>
