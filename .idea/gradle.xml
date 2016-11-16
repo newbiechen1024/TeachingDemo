@@ -9,10 +9,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/createrefreshview" />
             <option value="$PROJECT_DIR$/usecoordinator" />
             <option value="$PROJECT_DIR$/usenightmode" />
             <option value="$PROJECT_DIR$/useporterduffxfermode" />
             <option value="$PROJECT_DIR$/useshader" />
+            <option value="$PROJECT_DIR$/usestyle" />
+            <option value="$PROJECT_DIR$/useumeng" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

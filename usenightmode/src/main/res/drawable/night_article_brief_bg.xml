@@ -19,7 +19,11 @@
             <corners
                 android:radius="5dp"/>
             <solid
-                android:color="@color/white"/>
+                android:color="@color/normal_gray"/>
+            <padding android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp"/>
         </shape>
     </item>
 </layer-list>

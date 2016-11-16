@@ -1,11 +1,34 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <!--Toolbar返回箭头的颜色-->
+        <item name="colorControlNormal">@color/white</item>
+        <!--Toolbar溢出按钮的颜色-->
+        <item name="actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+    </style>
+
+    <style name="OverflowButtonStyle" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@mipmap/overflow_button</item>
+    </style>
+
+
+    <style name="NightMode" parent="AppTheme">
+        <item name="colorActionBar">@color/large_gray</item>
+        <item name="colorBackground">@color/middle_gray</item>
+        <item name="colorText">@color/white</item>
+        <item name="colorCardBackground">@color/middle_gray</item>
+    </style>
+
+    <style name="DayMode" parent="AppTheme">
+        <item name="colorActionBar">@color/colorPrimaryDark</item>
+        <item name="colorBackground">@color/little_gray</item>
+        <item name="colorText">@color/black</item>
+        <item name="colorCardBackground">@color/white</item>
     </style>
 
 </resources>

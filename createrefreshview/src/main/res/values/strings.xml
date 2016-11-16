@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CreateRefreshView</string>
+    
+    <string name="dropdown_refresh">下拉刷新</string>
+    <string name="liberate_refresh">释放刷新</string>
+    <string name="refreshing">正在刷新</string>
+    <string name="refresh_finish">刷新完成</string>
+</resources>

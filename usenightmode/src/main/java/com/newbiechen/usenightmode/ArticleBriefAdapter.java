@@ -5,6 +5,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.BaseAdapter;
+import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -21,7 +24,7 @@ import static android.support.v7.widget.RecyclerView.*;
 public class ArticleBriefAdapter extends Adapter<ArticleBriefAdapter.ArticleBriefViewHolder> {
 
     private final List<ArticleBrief> mArticleBriefItems = new ArrayList<>();
-
+    private OnItemClickListener mListener;
     private Context mContext;
     public ArticleBriefAdapter(Context context) {
         mContext = context;
@@ -35,11 +38,33 @@ public class ArticleBriefAdapter extends Adapter<ArticleBriefAdapter.ArticleBrie
     }
 
     @Override
-    public void onBindViewHolder(ArticleBriefViewHolder holder, int position) {
-        ArticleBrief articleBrief = mArticleBriefItems.get(position);
+    public void onBindViewHolder(ArticleBriefViewHolder holder, final int position) {
+        //获取Article
+        ArticleBrief articleBrief = getItem(position);
+/*        //设置夜间模式
+        if(MyApplication.isNightMode){
+            holder.rlBrief.setBackground(mContext.getResources().
+                    getDrawable(R.drawable.night_article_brief_bg));
+        }
+        else {
+            holder.rlBrief.setBackground(mContext.getResources().
+                    getDrawable(R.drawable.day_article_brief_bg));
+        }*/
+
+        //初始化数据
         holder.tvTitle.setText(articleBrief.getTitle());
         holder.tvAuthor.setText(articleBrief.getDate());
         holder.tvDate.setText(articleBrief.getDate());
+
+        //设置监听器
+        holder.itemView.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (mListener != null){
+                    mListener.onItemClick(position);
+                }
+            }
+        });
     }
 
     @Override
@@ -65,11 +90,23 @@ public class ArticleBriefAdapter extends Adapter<ArticleBriefAdapter.ArticleBrie
         }
     }
 
+    public interface OnItemClickListener{
+        void onItemClick(int pos);
+    }
+
     /*****************************公共方法**************************************/
 
     public void addItems(List<ArticleBrief> articleBriefList){
         mArticleBriefItems.addAll(articleBriefList);
         notifyDataSetChanged();
+    }
+
+    public ArticleBrief getItem(int position){
+        return mArticleBriefItems.get(position);
+    }
+
+    public void setOnItemClickListener(OnItemClickListener listener){
+        mListener = listener;
     }
 }
 

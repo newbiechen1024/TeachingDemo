@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">UseNightMode</string>
+
+    <string name="night_mode">夜间模式</string>
+    <string name="day_mode">日间模式</string>
+
+    <string name="setting">设置</string>
 </resources>

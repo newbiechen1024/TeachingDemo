@@ -45,7 +45,7 @@ public class RemoteService {
         return sRemoteService;
     }
 
-    public <T> void connHttp(String url, final RemoteCallBack<T> callBack){
+    public <T> void connHttp(String url, final RemoteCallback<T> callBack){
         //Get请求
         Request request = new Request.Builder()
                 .url(url)
@@ -81,7 +81,7 @@ public class RemoteService {
         });
     }
 
-    public interface RemoteCallBack<T>{
+    public interface RemoteCallback<T>{
         T parse(Response response);
 
         void onFailure();

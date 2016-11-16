@@ -1,17 +1,23 @@
 <component name="libraryTable">
   <library name="rules-0.5">
     <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/createrefreshview/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/usecoordinator/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/usenightmode/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/useporterduffxfermode/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
       <root url="jar://$PROJECT_DIR$/useshader/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/usestyle/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
+      <root url="jar://$PROJECT_DIR$/useumeng/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/usecoordinator/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/usecoordinator/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res" />
+      <root url="jar://$PROJECT_DIR$/createrefreshview/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/createrefreshview/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://D:/AndroidSDK/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
+      <root url="jar://D:/AndroidSDK/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
+      <root url="jar://D:/AndroidSDK/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
       <root url="jar://D:/AndroidSDK/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
       <root url="jar://D:/AndroidSDK/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
       <root url="jar://D:/AndroidSDK/extras/android/m2repository/com/android/support/test/rules/0.5/rules-0.5-sources.jar!/" />
